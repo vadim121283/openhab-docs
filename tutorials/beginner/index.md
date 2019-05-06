@@ -4,19 +4,19 @@ layout: tutorial-beginner
 
 {% include base.html %}
 
-# Overview
+# Обзор
 
-This part covers all the basics to use openHAB after you installed it: how to perform the first-time setup, add some bindings, discover and configure things for the first time and finally how to create a sitemap and some basic rules.
+Эта часть охватывает все основы использования openHAB после его установки: как выполнить первоначальную настройку, добавить некоторые привязки, обнаружить и настроить объекты в первый раз и, наконец, как создать карту сайта и некоторые основные правила.
 
-The goal of this tutorial is to cover the first steps for new users.
-After performing the first-time setup, you will learn how to install a very simple "binding", the "Network Binding".
-A binding is an additional package for openHAB to be able to interact with all kinds of devices or situations.
-To show you the use and configuration of a more complex binding, we'll guide you through the installation of the "Zwave Binding", a binding to control devices in a Zwave network.
-At the end of this tutorial, you will be able to create a local sitemap and your first simple rules.
+Цель этого урока - охватить первые шаги для новых пользователей.
+Выполнив первоначальную настройку, вы узнаете, как установить очень простую «привязку», «Сетевую привязку».
+Привязка - это дополнительный пакет для openHAB, чтобы иметь возможность взаимодействовать со всеми видами устройств или ситуаций.
+Чтобы показать вам использование и настройку более сложной привязки, мы проведем вас через установку "Zwave Binding", привязки к устройствам управления в сети Zwave.
+В конце этого урока вы сможете создать локальную карту сайта и свои первые простые правила.
 
-**This tutorial assumes that you already installed openHAB on your preferred system.
-If you're looking for installation instructions for your platform, please have a look [here]({{base}}/installation/index.html) before continuing with this tutorial!**
+**В этом руководстве предполагается, что вы уже установили openHAB на предпочитаемую вами систему.
+Если вы ищете инструкции по установке для вашей платформы, пожалуйста, посмотрите [тут]({{base}}/installation/index.html) прежде чем продолжить этот урок!**
 
-Let's proceed to step 1, the [First-Time setup]({{base}}/tutorials/beginner/1sttimesetup.html)
+Давайте перейдем к шагу 1 [Первоначальная настройка]({{base}}/tutorials/beginner/1sttimesetup.html)
 
 {% include contribution-wanted.html %}
