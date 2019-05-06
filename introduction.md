@@ -20,172 +20,172 @@ h1.welcome {
 
 <img src="/openhab-logo-square.png" width="150" height="150" class="intro-logo" />
 
-<h1 class="welcome">Welcome!</h1>
+<h1 class="welcome">Добро пожаловать!</h1>
 
-The  **open H**ome  **A**utomation  **B**us (openHAB,  *pronounced ˈəʊpənˈhæb*) is an open source, technology agnostic home automation platform which runs as the center of your smart home! 
+**open H**ome  **A**utomation  **B**us (openHAB) является платформой домашней автоматизации с открытым исходным кодом, независимой от технологий, которая работает как центр вашего умного дома!
 
 <div style="clear:both"></div>
 
-Some of openHAB's strengths are:
+Некоторые из преимуществ openHAB:
 
-- Its ability to integrate a multitude of other devices and systems. openHAB includes other home automation systems, (smart) devices and other technologies into a single solution
-- To provide a uniform user interface and a common approach to automation rules across the entire system, regardless of the number of manufacturers and sub-systems involved
-- Giving you the most flexible tool available to make almost any home automation wish come true; if you can think it, odds are that you can implement it with openHAB.
+- Его способность интегрировать множество других устройств и систем. openHAB объединяет другие системы домашней автоматизации, (умные) устройства и другие технологии в единое решение
+- Обеспечить единый пользовательский интерфейс и общий подход к правилам автоматизации во всей системе, независимо от количества задействованных производителей и подсистем
+- Предоставление вам самого гибкого инструмента из доступных, чтобы воплотить в жизнь практически любое желание домашней автоматизации; если вы можете подумать об этом, скорее всего, вы можете реализовать это с openHAB.
 
-## What you need to know before you start
+## Что нужно знать перед началом
 
-**When home automation just seems to work, it is always the result of hard work.** 
-Home automation is fascinating and requires a considerable investment of your time. 
-Here are some key considerations especially for new users. To be successful, you will need to:
+**Когда кажется, что домашняя автоматизация работает, это всегда результат тяжелой работы.** 
+Домашняя автоматизация увлекательна и требует значительных затрат вашего времени.
+Вот некоторые ключевые соображения, особенно для новых пользователей. Чтобы быть успешным, вам нужно:
 
-* Start slowly and one step at a time
-* Be prepared to learn
-* Remain flexible in how you want to achieve your goal
-* Celebrate all the small successes
+* Начните медленно делая один шаг за раз
+* Будьте готовы учиться
+* Сохраняйте гибкость в том, как вы хотите достичь своей цели
+* Отпразднуйте все маленькие успехи
 
-Remember, openHAB is just a computer program. 
-The computer will only do what *you* tell it to do.
-openHAB can provide many default solutions that are easy to setup. 
-On the flip side, the more you insist that everything should look and work exactly as you want it, the more work you will have to do. 
-openHAB is fully customizable, but doing so will require substantial effort on your part.
+Помните, openHAB - это просто компьютерная программа. 
+Компьютер будет делать только то, что *вы* ему скажете.
+openHAB может предоставить множество стандартных решений, которые легко установить. 
+С другой стороны, чем больше вы настаиваете на том, чтобы все выглядело и работало именно так, как вы хотите, тем больше работы вам придется делать. 
+openHAB полностью настраиваем, но это потребует значительных усилий с вашей стороны.
 
-After you have read the documentation for openHAB, you will have:
+После прочтения документации openHAB вам нужно будет:
 
-* Identified on which computer you will run openHAB
-* Learned how to install openHAB, as well as all other software that is needed to run openHAB (e.g., JAVA)
-* Learned how your smart devices communicate with openHAB; how to make openHAB give commands to your smart devices; and how you can interact with openHAB
+* Определение, на каком компьютере вы будете запускать openHAB
+* Научится устанавливать openHAB, а также все остальное программное обеспечение, необходимое для запуска openHAB (например, JAVA)
+* Узнать, как ваши умные устройства взаимодействуют с openHAB; как заставить openHAB давать команды вашим умным устройствам; и как вы можете взаимодействовать с openHAB
 
-Keep your focus. 
-For almost everything, there is more than one way in openHAB to achieve a goal or perform a task. 
-Initially, this can be frustrating and confusing, but it also gives great flexibility and does not mandate the use of certain devices or tools.
+Держи во внимании. 
+Практически для всего в openHAB есть несколько способов достичь цели или выполнить задачу. 
+Первоначально это может быть неприятно и запутанно, но также дает большую гибкость и не требует использования определенных устройств или инструментов.
 
-You may need to learn more about computers than you currently do.
-But this may not be a problem as you are reading the documentation of software that will enable you to do home automation yourself.
+Возможно, вам придется узнать больше о компьютерах, чем вы в настоящее время знаете.
+Но это не может быть проблемой, так как вы читаете документацию по программному обеспечению, которое позволит вам сделать домашнюю автоматизацию самостоятельно.
 
-Lastly, be prepared to start a new hobby: home automation. 
+Наконец, будьте готовы начать новое хобби: домашняя автоматизация.
 
-Basic functions can be achieved in openHAB rather quickly, e.g., switch lights on at a certain time. 
-Others will require much more efforts and thoughts, e.g., how do I determine that someone is home, including guests, but not counting pets? 
-The openHAB forum is a great place to learn and discuss. 
+Основные функции в openHAB могут быть достигнуты довольно быстро, например, включить свет в определенное время. 
+Другим потребуется гораздо больше усилий и мыслей, например, как я могу определить, что кто-то дома, включая гостей, но не считая домашних животных? 
+Форум openHAB - отличное место для изучения и обсуждения. 
 
-## A quick overview
+## Краткий обзор
 
-openHAB communicates electronically with smart and not-so-smart devices, performs user-defined actions and provides web-pages with user-defined information as well as user-defined tools to interact with all devices. 
-To achieve this, openHAB segments and compartmentalizes certain functions and operations. 
-The following table gives a top-level description of the most important concepts as well as a link to more information:
+openHAB связывается в электронном виде с умными и не очень умными устройствами, выполняет пользовательские действия и предоставляет веб-страницам пользовательскую информацию, а также пользовательские инструменты для взаимодействия со всеми устройствами. 
+Для этого openHAB сегментирует и разделяет определенные функции и операции. 
+В следующей таблице приведено описание наиболее важных понятий, а также ссылка на дополнительную информацию:
 
-| Concepts | Meaning | More Information |
+| Концепции | Значение | Дополнительная информация |
 | --- | --- | --- |
-| Bindings | are the openHAB component that provides the interface to interact electronically with devices | _see below_ |
-| Things | are the first openHAB (software) generated representation of your devices | [click for more info on Things]({{base}}/concepts/things.html) |
-| Channels | are the openHAB (software) connection between “Things” and “Items” (see below) | _see below_ |
-| Items | are the openHAB (software) generated representation of information about the devices | [click for more info on Items]({{base}}/concepts/items.html) |
-| Rules | that perform automatic actions (in its simplest form: if "this" happens, openHAB will do "that") | [click for more info on Rules]({{base}}/configuration/rules-dsl.html) |
-| Sitemap | is the openHAB (software) generated user interface (web site) that presents information and allows for interactions | [click for more info on Sitemaps]({{base}}/configuration/sitemaps.html) |
+| Bindings | являются компонентом openHAB, который обеспечивает интерфейс для электронного взаимодействия с устройствами | _см. ниже_ |
+| Things | первоначальное openHAB (программное обеспечение) сгенерированное представление ваших устройств | [дополнительная информация Things]({{base}}/concepts/things.html) |
+| Channels | являются openHAB (программным) соединением между «Things» и «Items» (см. ниже) | _см. ниже_ |
+| Items | являются openHAB (программное обеспечение) сгенерированное представление информации об устройствах | [дополнительная информация Items]({{base}}/concepts/items.html) |
+| Rules | правила, которые выполняют автоматические действия (в простейшем вид: если произойдет «это», openHAB сделает «это») | [дополнительная информация Rules]({{base}}/configuration/rules-dsl.html) |
+| Sitemap | это сгенерированный openHAB (программный) пользовательский интерфейс (веб-сайт), который представляет информацию и позволяет взаимодействовать | [дополнительная информация Sitemaps]({{base}}/configuration/sitemaps.html) |
 
-While the table above gives an overview, please remember that it is incomplete and a simplification of openHAB for the sake of this overview.
-More elements will be introduced in later chapters of the documentation. 
-All the above [Concepts]({{base}}/concepts/index.html) are explained in more depth on other pages that can be accessed either through the sidebar or the links in the table above.
+Хотя приведенная выше таблица дает обзор, пожалуйста, помните, что он неполон и упрощает openHAB ради этого обзора.
+Дополнительные элементы будут представлены в последующих главах документации. 
+Все выше [Концепции]({{base}}/concepts/index.html) объясняются более подробно на других страницах, к которым можно получить доступ либо через боковую панель, либо по ссылкам в таблице выше.
 
-### Channels
+### Channels - Каналы
 
-Channels are for the logical link of a [Thing]({{base}}/concepts/things.html) to an [Item]({{base}}/concepts/items.html). 
-Channels originate from [Things]({{base}}/concepts/things.html) definition and define how your [Thing]({{base}}/concepts/things.html) can communicate with [Item]({{base}}/concepts/items.html) (and vice versa). 
-You will create channels when defining your [Thing]({{base}}/concepts/things.html).
+Каналы для логической связи [Thing]({{base}}/concepts/things.html) с [Item]({{base}}/concepts/items.html). 
+Каналы происходят из [Things]({{base}}/concepts/things.html) определение и определить, как ваш [Thing]({{base}}/concepts/things.html) может общаться с [Item]({{base}}/concepts/items.html) (и наоборот). 
+Вы будете создавать каналы при определении вашего [Thing]({{base}}/concepts/things.html).
 
-During the definition of your [Thing]({{base}}/concepts/things) you will identify the channel to which your [Item]({{base}}/concepts/items.html) will be linked. 
-These two steps ensure that openHAB can transmit the information from the [Thing]({{base}}/concepts/things.html) to the [Item]({{base}}/concepts/items.html) (and vice versa).
+Во время определения вашего [Thing]({{base}}/concepts/things) вы определите канал, на который ваш [Item]({{base}}/concepts/items.html) будет связан (linked). 
+Эти два шага гарантируют, что openHAB может передавать информацию от [Thing]({{base}}/concepts/things.html) к [Item]({{base}}/concepts/items.html) (и наоборот).
 
-### Bindings
+### Bindings - Привязки
 
-Bindings are software packages that are installed by the user in openHAB. 
-The main purpose of Bindings is to establish the connection between your device and your [Thing]({{base}}/concepts/things.html). 
-Bindings communicate with your device and translate all commands to and from openHAB between your device and your [Thing]({{base}}/concepts/things.html).
+Привязки - это программные пакеты, которые устанавливаются пользователем в openHAB. 
+Основная цель Bindings - установить соединение между вашим устройством и вашим [Thing]({{base}}/concepts/things.html). 
+Bindings связываются с вашим устройством и переводят все команды в и из openHAB между вашим устройством и вашим [Thing]({{base}}/concepts/things.html).
 
-Bindings are provided at the [Add-on section](https://www.openhab.org/addons/) of this website. 
-Here you will find a searchable list of several hundred bindings to support as many devices as possible. 
-New bindings are regularly added as developers integrate more devices into openHAB.
+Bindings предоставляются на [Раздел дополнений](https://www.openhab.org/addons/) этого сайта. 
+Здесь вы найдете список из нескольких сотен привязок для поддержки как можно большего количества устройств. 
+Новые привязки регулярно добавляются, поскольку разработчики интегрируют больше устройств в openHAB.
 
-For each binding, detailed instructions and examples are provided that include guidance on configuration (if any) of the binding itself, the definition of [Things]({{base}}/concepts/things.html) supported by this binding and the Channels these [Things]({{base}}/concepts/things) provide. 
-In most cases, the description also contains a fully worked out example that includes a definition of [Things]({{base}}/concepts/things) and its Channels, [Items]({{base}}/concepts/items.html) linked to those Channels and the use of these [Items]({{base}}/concepts/items.html) in a sitemap.
+Для каждой привязки предоставляются подробные инструкции и примеры, которые включают руководство по настройке (если таковая имеется) самой привязки, определение [Things]({{base}}/concepts/things.html) поддерживаемые этой привязкой и каналы предоставляемые [Things]({{base}}/concepts/things). 
+В большинстве случаев описание также содержит полностью разработанный пример, который включает определение [Things]({{base}}/concepts/things) и его каналы, [Items]({{base}}/concepts/items.html) связаны с этими каналами и использованием этих [Items]({{base}}/concepts/items.html) в Sitemap.
 
-## While you are getting started
+## Пока вы начинаете
 
-To all newcomers: please read the section [New User Tutorial]({{base}}/tutorial). 
-That section provides you with step-by-step instructions for your first easy setup. 
+Для всех новичков: пожалуйста, прочитайте раздел [Руководство для Нового пользователя]({{base}}/tutorial). 
+В этом разделе приведены пошаговые инструкции для первой простой настройки. 
 
-OpenHAB runs on most popular platforms such as Linux, Windows and MacOS and on almost any hardware ranging from Raspberry Pis to desktop computers and server PCs. 
-You can find specific installation instructions for these and other platforms in the [Installation Overview]({{base}}/installation/index.html) article. 
-If you have a strong preference towards a particular platform, then that platform is probably your best choice.
+OpenHAB работает на большинстве популярных платформ, таких как Linux, Windows и MacOS, и практически на любом оборудовании, от Raspberry Pi до настольных компьютеров и серверных ПК.
+Вы можете найти конкретные инструкции по установке для этих и других платформ в статье [Обзор установки]({{base}}/installation/index.html). 
+Если у вас есть сильные предпочтения по отношению к конкретной платформе, то эта платформа, вероятно, ваш лучший выбор.
 
-You can install openHAB on your desktop computer for evaluation purposes if you already have any of these systems available for use, but we recommend using a dedicated system in the long run. 
-If you feel serious about home automation it may be better to start with a dedicated system right away.
+Вы можете установить openHAB на свой настольный компьютер для ознакомительных целей, если у вас уже есть какая-либо из этих систем, доступных для использования, но мы рекомендуем использовать выделенную систему в долгосрочной перспективе.
+Если вы серьезно относитесь к домашней автоматизации, лучше сразу начать с выделенной системы.
 
-For anyone undecided: many people find that the simplest way to experiment with openHAB is to get a [Raspberry Pi (Version 3 for the best experience)](https://raspberrypi.org) and install [openHABian]({{base}}/installation/openhabian.html); a "hassle-free openHAB setup". 
-While openHABian offers a streamlined and simplified way to get up and running quickly, it is a complete openHAB home automation system easily capable of automating your entire home.
-However, it is worth noting two potential limitations of Raspberry Pis. 
-They are limited in RAM (memory) and may not perform well when additional database and data visualization programs are installed.
-Running Raspberries from SD-cards only may result in system instabilities as these memory cards can degrade quickly under openHAB's use conditions. 
+Для тех, кто не определился: многие люди считают, что самый простой способ поэкспериментировать с openHAB - это получить [Raspberry Pi (Версия 3 для лучшего опыта)](https://raspberrypi.org) и установить [openHABian]({{base}}/installation/openhabian.html); "беспроблемная установка openHAB". 
+Хотя openHABian предлагает упрощенный способ быстрого запуска, это полная система домашней автоматизации openHAB, способная автоматизировать весь ваш дом.
+Тем не менее, стоит отметить два возможных ограничения Raspberry Pi. 
+Они ограничены в оперативной памяти (RAM) и могут не работать должным образом, когда установлены дополнительные базы данных и программы визуализации данных.
+Запуск Raspberry только с SD-карт может привести к нестабильности системы, поскольку эти карты памяти могут быстро портиться в условиях использования openHAB. 
 
-Once you have openHAB up and running, the [Configuration]({{base}}/configuration/index.html) article contains everything you need to know to get your openHAB installation talking to different devices around your home. 
+После того, как вы запустите openHAB [Настройка]({{base}}/configuration/index.html) статья содержит все, что вам нужно знать, чтобы ваша установка openHAB общалась с различными устройствами в вашем доме. 
 
-You will quickly discover that you may want to learn more about Things, Channels, Items, and more. 
-To do so, we highly recommend that you read the next chapter titled [Concepts]({{base}}/concepts/index.html). 
-It provides a more in-depth descriptions of Things, Items, Bindings, etc. that will help you as you dive deeper into openHAB.
+Вы быстро обнаружите, что можете узнать больше о вещах, каналах, предметах и многом другом. 
+Для этого мы настоятельно рекомендуем вам прочитать следующую главу под названием [Концепции]({{base}}/concepts/index.html). 
+Он содержит более подробные описания вещей, предметов, привязок и т.д., которые помогут вам глубже погрузиться в openHAB.
 
-The amount of information provided here can be overwhelming, so please come back to these sections often as you develop your home automation system.
+Количество информации, представленной здесь, может быть огромным, поэтому, пожалуйста, возвращайтесь к этим разделам часто, когда вы разрабатываете свою систему домашней автоматизации.
 
-Along the way, you may have some questions; the openHAB community is here to help.
+По пути у вас могут возникнуть некоторые вопросы; сообщество openHAB здесь, чтобы помочь.
 
-## The openHAB Community
+## Сообщество openHAB
 
-openHAB is not just software - it is also a **community** of users, contributors and maintainers, working together on an open-source, interoperable approach to home automation. 
-The center of this community is the [openHAB community forum](https://community.openhab.org). 
-It is an active and responsive community of developers and maintainers who generally respond quite quickly to forum questions. 
+openHAB - это не просто программное обеспечение - это также **сообщество** пользователей, участников и сопровождающих, работающих вместе над открытым исходным кодом, совместимым подходом к домашней автоматизации.
+Центром этого сообщества является [openHAB community forum](https://community.openhab.org). 
+Это активное и отзывчивое сообщество разработчиков и сопровождающих, которые обычно довольно быстро отвечают на вопросы форума. 
 
-Remember that openHAB is an open-source development, driven exclusively by volunteers. 
-Please be kind and courteous, it will be most appreciated by those that will try to help you.
+Помните, что openHAB - это разработка с открытым исходным кодом, продвигаемая исключительно добровольцами.
+Пожалуйста, будьте добры и вежливы, это оценят те, кто постарается вам помочь.
 
-In many occasions, you will notice that your problem has already been raised by others; and discussed and resolved by the community before. 
-You can search previous conversations and issues to see if your question has already been answered. 
-It is best practice and generally considered to be good etiquette to check fairly thoroughly before posting your own question.
+Во многих случаях вы заметите, что ваши проблемы уже поднимались другими; и обсуждалось и решалось сообществом раньше.
+Вы можете искать предыдущие разговоры и вопросы, чтобы увидеть, если ваш вопрос уже был дан ответ. 
+Это хорошая практика и, как правило, считается хорошим этикетом, чтобы проверить достаточно тщательно, прежде чем отправлять свой собственный вопрос.
 
-If it is your first time posting a question, please read [How to help us helping you](https://community.openhab.org/t/how-to-ask-a-good-question-help-us-help-you/58396) for information on what information you will need to provide.
+Если вы впервые пишете вопрос, пожалуйста, прочитайте [Как помочь нам помочь тебе](https://community.openhab.org/t/how-to-ask-a-good-question-help-us-help-you/58396) об информации о том, какую информацию вам нужно будет предоставить.
 
-## Putting it into Practice
+## Применяя это на практике
 
-Once you are getting a first overview, it is time to practice. 
-Here a short list of the steps that you will need to consider to get openHAB up and running as your home automation system:
+Как только вы получите первый обзор, пришло время попрактиковаться.
+Вот краткий список шагов, которые вы должны будете рассмотреть, чтобы запустить openHAB в качестве домашней системы автоматизации:
 
-1. Install openHAB
-2. If you already own a smart device, search the addons for the brand or technology used by that device (or simply browse the list of [add-ons](/addons/) for any technologies or services you may recognize) 
-3. Install a binding (in openHAB)
-4. Define a “thing”
-5. Add a “channel” to the “thing” if not created by the binding
-6. Define an “item”
-7. Link the “channel” to your “item”
-8. Establish a sitemap
+1. Установите openHAB
+2. Если у вас уже есть умное устройство, найдите в надстройках марку или технологию, используемую этим устройством (или просто просмотрите список [Дополнений](/addons/) для любых технологий или услуг, которые вы можете распознать) 
+3. Установить привязку “binding“ (в openHAB)
+4. Определите вещь “thing”
+5. Добавьте канал “channel” в вещи “thing” если они не созданы привязкой “binding“
+6. Определите предмет “item”
+7. Свяжите “Link“ канал “channel” к вашему предмету “item”
+8. Настройте sitemap
 
-Most of the above can be done in openHAB through point-and-click processes in a graphical user interface. 
-But remember, there is always more than one way to achieve your goal in openHAB. 
+Большинство из вышеперечисленного может быть сделано в openHAB с помощью процессов «укажи и щелкни» в графическом пользовательском интерфейсе.
+Но помните, что в openHAB всегда есть несколько способов достичь своей цели.
 
-A final word for the DIY enthusiasts. openHAB is very flexible and can support many DIY devices. 
-However, you will quickly realize that DIY often literally means that you _"do it yourself"_. 
-Working with DIY solutions often requires a deeper level of understanding, as well as more patience and perseverance than the integration of ready-to-use devices from commercial providers. 
-The choice is yours of course, but you will need to be prepared spending either money or time (and sometimes both) to make your home automation goals a reality. 
-And quite often, the investment will be significant.
+Последнее слово для любителей DIY. openHAB очень гибок и может поддерживать много устройств DIY.
+Тем не менее, вы быстро поймете, что DIY часто буквально означает, что вы _«делаете это сами»_.
+Работа с решениями «Сделай сам» часто требует более глубокого понимания, а также большего терпения и настойчивости, чем интеграция готовых к использованию устройств от коммерческих поставщиков.
+Выбор за вами, конечно, но вы должны быть готовы потратить деньги или время (а иногда и то и другое), чтобы ваши цели домашней автоматизации стали реальностью.
+И довольно часто инвестиции будут значительными.
 
-Don’t give up, openHAB is very powerful and flexible and most likely can help you achieve your home automation goals, whichever they are. 
-But it comes with a rather steep learning curve.
+Не сдавайтесь, openHAB очень мощный и гибкий, и, скорее всего, может помочь вам в достижении ваших целей домашней автоматизации, какими бы они ни были.
+Но это идет с довольно крутой кривой обучения.
 
-## A deeper dive: openHAB Structure for advanced users
+## Более глубокое погружение: структура openHAB для опытных пользователей
 
-openHAB 2 is developed in [Java](https://www.java.com/) and uses [OSGi](https://www.osgi.org/) for modularity. 
-[Apache Karaf](http://karaf.apache.org/) serves as a container with [Eclipse Equinox](https://www.eclipse.org/equinox/) as the OSGi runtime environment. 
-[Jetty](https://www.eclipse.org/jetty/) is included as an HTTP server.
+openHAB 2 разработан на [Java](https://www.java.com/) и использует [OSGi](https://www.osgi.org/) для модульности. 
+[Apache Karaf](http://karaf.apache.org/) служит контейнером с [Eclipse Equinox](https://www.eclipse.org/equinox/) как OSGi среда выполнения. 
+[Jetty](https://www.eclipse.org/jetty/) включен как HTTP-сервер.
 
-openHAB is highly modular software that can be extended through "Add-ons". 
-Add-ons give openHAB a wide array of capabilities, from User Interfaces, to the ability to interact with a large and growing number of physical Things. 
-Add-ons may come from the openHAB 2 distribution, the legacy openHAB 1 distribution or from any other external source.
+openHAB - это высокомодульное программное обеспечение, которое можно расширить с помощью «Дополнений». 
+Дополнения предоставляют openHAB широкий спектр возможностей, от пользовательских интерфейсов до возможности взаимодействия с большим и растущим количеством физических вещей.
+Дополнения могут поступать из дистрибутива openHAB 2, устаревшего дистрибутива openHAB 1 или из любого другого внешнего источника.
 
-If you are new to openHAB, we suggest you continue to the [Concepts]({{base}}/concepts/index.html) chapter where we introduce many fundamental ideas that are used throughout openHAB.
+Если вы новичок в openHAB, мы предлагаем вам продолжить [Концепции]({{base}}/concepts/index.html) глава, в которой мы представляем много фундаментальных идей, которые используются в openHAB.
